@@ -1,0 +1,87 @@
+/*
+#ffffbf - pale-yellow
+#ADD8E6 - Lite blue */
+
+
+
+
+.hero{
+  background-image:url(images/newspaper-heroBGI.jpeg);
+  background-size: cover;
+  background-position:center;
+  height: 700px;
+  padding-left: 200px;
+  padding-right:200px;
+}
+.hero-content-container{
+  padding-top: 300px;
+}
+.one{
+font-size: 60px;
+font-family: 'Marker Felt',fantasy;
+color: white;
+text-align: right;
+}
+.two{
+font-size: 70px;
+font-family: 'Impact',fantasy;
+color: gray;
+text-align: right;
+}
+button{
+  border: 2px solid black;
+  border-radius: 5%;
+  background-color: transparent;
+  float:right;
+}
+button:hover{
+  font-weight: bold;
+}
+h1{
+font-family: 'Prompt', sans-serif;
+color: #ADD8E6;
+display: inline-block;
+}
+ul.hover li:hover{
+  color:#ADD8E6;
+  font-size: 1.1em;
+  font-weight:bold;
+}
+li{
+  list-style: none;
+  float: left;
+  padding-left: 4%;
+  display: inline-block;
+}
+h3{
+  padding-top: 2%;
+}
+h3:hover,h6:hover{
+  font-weight: bold;
+}
+img{
+  width: 100px;
+  height:100px;
+  background-color: black;
+  float:left;
+  margin-right:10px;
+}
+p{
+  text-align: left;
+  line-height: normal;
+  font-size: 15px;
+}
+small{
+  font-weight: bold;
+  color: gray;
+}
+small:hover{
+  font-style: oblique;
+}
+ul.footerlinks{
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+ul.footerlinks li{
+  font-weight:bold;
+}

@@ -1,0 +1,147 @@
+/* everything is always going to the top left corner by default */
+/* you can set style defaults in the body */
+
+/* ///////GENRAL BODY GENERAL BODY//////// */
+body{
+  background: white;
+  font-family: 'BhuTuka Expanded One', monospace;
+
+  }
+#header,#content,#footer{
+  width: 90%;
+/* Fixed width max-width */
+  margin: auto;
+  margin-top: 2%;
+  box-sizing: border-box;
+  /* max-height: 620px; */
+  }
+  a:link{text-decoration: none; color: #FFFFFF;}
+  a:visited{text-decoration: none; color: #FFFFFF;}
+  a:hover{text-decoration: underline; color: #FFA07A;font-size: 1.1em}
+  a:active{text-decoration: none; color: #FFFFFF;}
+/* ///////HEADER HEADER HEADER//////// */
+#header{
+  background: #FFFFFF;
+  height: 620px;
+  background-image: url("images/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  }
+h1{
+  font-size: 4em;
+  text-align: center;
+  margin-top: 10%;
+  color:white;
+  }
+ul{
+  padding-left: 5%;
+  }
+#header li{
+  list-style: none;
+  float: left;
+  margin-top: 5%;
+  margin-right: 10%;
+  font-size: 1em;
+  }
+/* ///////HEADER and CONTENT- HEADER and CONTENT//////// */
+#header{
+/* variable height (max and min height) */
+padding: 30;
+/* top, right, bottom, left */
+  }
+/* ///////CONTENT CONTENT CONTENT//////// */
+#content{
+  background: #dedede;
+  height: 130%;
+  }
+.contentQuote{
+  font-weight: bold;
+  text-align: center;
+  font-size: 5em;
+  padding-top: 25%;
+ }
+img{
+  width: 40%;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 10px 10px 30px gray;
+  float:left;
+  margin: 2% ;
+  margin-left: 40px;
+  }
+div.imagecase{
+    display:inline-block;
+    margin-left: 30px;
+    float: left;
+    margin: 1% ;
+    width: 45%;
+  }
+p{
+  text-align: left;
+  line-height: normal;
+  font-size: 15px;
+}
+.circle{
+  height: 15%;
+  Width:15%;
+  background-color: #ff9899;
+  border-radius: 50%;
+  float: left;
+  margin-left: 1%;
+  opacity: 50%;
+}
+.circle2{
+  height: 10%;
+  Width:10%;
+  background-color: #fde5b4;
+  border-radius: 50%;
+  margin-top: 10%;
+  float: left;
+  margin: auto;
+}
+.circle3{
+  height: 5%;
+  Width:5%;
+  background-color: #ffcdc4;
+  border-radius: 50%;
+  float: left;
+  display: block;
+}
+.circle4{
+  height: 2%;
+  Width:2%;
+  background-color: white;
+  border-radius: 50%;
+  float: left;
+  display: block;
+}
+/* ///////FOOTER FOOTER FOOTER//////// */
+#footer{
+  background: #FFFFFF;
+  text-align: center;
+  height: 8%;
+  }
+h3,h4{
+  margin-top: 2%;
+  color: salmon;
+  text-align: center;
+  }
+h4{
+  display: inline-block;
+  }
+  /* ///////CONTACT PAGE CONTACT PAGE//////// */
+#contactheader{
+  height: 80%;
+  width: 30%;
+  background-color: #FFFFFF;
+  margin: auto;
+  border-radius: 20%;
+  box-shadow: -5px 5px #FFA07A;
+  }
+input{
+  margin-left: 25%;
+  margin-top: 10%;
+  width: 50%;
+  padding: 12px 20px;
+  }
